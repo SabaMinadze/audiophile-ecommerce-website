@@ -9,7 +9,7 @@
 .h1{
     color: white;
     font-family: 'Red Hat Display', sans-serif;
-    transform: translateY(140px);
+    transform: translateY(190px);
     font-size: 40px;
 }
 
@@ -39,4 +39,8 @@
 .txt22{
     color: rgb(154,149,161);
     width: 400px;
+}
+
+.content{
+    margin-top: 200px;
 }
