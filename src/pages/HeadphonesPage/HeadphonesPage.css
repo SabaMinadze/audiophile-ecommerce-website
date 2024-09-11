@@ -24,10 +24,19 @@
     margin-top: 62px;
 }
 
-.box {
-    color: rgb(255, 255, 255);
+.box3 {
+    color: rgb(1, 1, 1);
     font-family: 'Red Hat Display', sans-serif;
     width: 350px;
-    margin-left: 220px;
-    transform: translateY(238px);
+    margin-left: 900px;
+    margin-top: -400px;
+}
+
+.txt7{
+    color: rgb(216,125,74);
+}
+
+.txt22{
+    color: rgb(154,149,161);
+    width: 400px;
 }

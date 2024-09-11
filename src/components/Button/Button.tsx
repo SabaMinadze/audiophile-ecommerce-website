@@ -1,8 +1,8 @@
-import "./Botton.css"
+import "./Button.css"
 
 function Button(props) {
   return (
-    <button className="btn">{props.title}</button>
+    <><button className="btn9">{props.title}</button></>
   )
 }
 
