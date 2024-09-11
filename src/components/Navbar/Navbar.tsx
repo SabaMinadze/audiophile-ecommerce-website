@@ -15,7 +15,6 @@ function Navbar() {
             <li><Link className="li" to="eraphones">EARPHONES</Link></li>          
             </ul>
         </ul>
-        <center><hr className="hr"/></center>
     </div>
     </>
   )
