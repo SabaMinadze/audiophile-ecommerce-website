@@ -2,7 +2,9 @@ import "./HeadphonesPage.css"
 
 function HeadphonesPage() {
   return (
-    <div>HeadphonesPage</div>
+    <>
+    <div className="mainBox"><center><h1 className="h1">HEADPHONES</h1></center></div>
+    </>
   )
 }
 
