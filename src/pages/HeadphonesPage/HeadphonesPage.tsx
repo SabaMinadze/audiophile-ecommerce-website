@@ -10,7 +10,7 @@ function HeadphonesPage() {
       <img src={headphoneImage} alt="error" width="550px" height="590px" className="img1"/>
         <SubContent/>
     </div>
-    <div className="content">asdasd</div>
+    <div className="content"><SubContent/></div>
     </>
   )
 }
