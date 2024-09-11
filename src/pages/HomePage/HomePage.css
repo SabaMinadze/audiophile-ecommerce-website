@@ -5,6 +5,7 @@
     font-family: 'Red Hat Display', sans-serif;
     width: 350px;
     margin-left: 220px;
+    transform: translateY(238px);
 }
 
 .txt {

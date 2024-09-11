@@ -5,7 +5,6 @@ function HomePage() {
   return (
     <>
     <div className="xx">
-    <br /><br /><br /><br /><br />
          <div className="box">
           <p className="txt">NEW PRODUCT</p>
           <h1 className="h11">XX99 Mark II Headphones</h1>
