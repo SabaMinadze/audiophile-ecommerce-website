@@ -4,8 +4,8 @@ import heroImage from "./imagehero.jpg"
 function HomePage() {
   return (
     <>
-    <div className="mainBox">
-      <center><img src={heroImage} alt="error" height="609px" width="100%"/></center>
+    <div className="xx">
+    <br /><br /><br /><br /><br />
          <div className="box">
           <p className="txt">NEW PRODUCT</p>
           <h1 className="h11">XX99 Mark II Headphones</h1>

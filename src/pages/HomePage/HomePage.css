@@ -1,31 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700&display=swap');
 
-.box{
+.box {
     color: rgb(255, 255, 255);
-    margin-top: -500px;
     font-family: 'Red Hat Display', sans-serif;
     width: 350px;
     margin-left: 220px;
 }
 
-.txt{
+.txt {
     font-family: 'Red Hat Display', sans-serif;
     font-size: 20px;
     color: rgb(132,136,139);
     font-weight: 700;
 }
 
-.h11{
+.h11 {
     font-family: 'Red Hat Display', sans-serif;
     font-size: 55px;
 }
 
-.txt2{
+.txt2 {
     font-family: 'Red Hat Display', sans-serif;
     color: rgb(140,140,135);
 }
 
-.btn{
+.btn {
     height: 50px;
     width: 160px;
     margin-top: 40px;
@@ -36,7 +35,12 @@
     font-weight: 501;
 }
 
-.hr{
+.hr {
     width: 1110px;
     margin-top: 50px;
+}
+
+.xx {
+    height: 700px;
+    background-image: url("./imagehero.jpg");
 }
