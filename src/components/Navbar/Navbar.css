@@ -9,9 +9,15 @@
 .ul{
     display: flex;
     list-style: none;
-    gap: 60px;
-    margin-left: 500px;
-    transform: translateY(20px);
+    gap: 50px;
+    margin-left: 215px;
+}
+
+.ul2{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    margin-left: 210px;
 }
 
 .li{
@@ -22,6 +28,16 @@
     color: white;
     font-weight: 501;
 }
+
+.lih{
+    font-family: 'Red Hat Display', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    color: rgb(209,114,58);
+    font-weight: 501;
+}
+
 
 .li:hover{
     color: rgb(209,114,58);
