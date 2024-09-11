@@ -11,10 +11,11 @@ function Navbar() {
             <li><Link className="lih" to="/">HOME</Link></li>
             <li><Link className="li" to="headphones">HEADPHONES</Link></li>
             <li><Link className="li" to="speakers">SPEAKERS</Link></li>
-            <li><Link className="li" to="eraphones">EARPHONES</Link></li>
+            <li><Link className="li" to="eraphones">EARPHONES</Link></li>          
             </ul>
         </ul>
     </div>
+    <hr className="hr"/>
     </>
   )
 }

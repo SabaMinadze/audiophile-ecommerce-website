@@ -24,3 +24,14 @@
     font-family: 'Red Hat Display', sans-serif;
     color: rgb(140,140,135);
 }
+
+.btn{
+    height: 50px;
+    width: 160px;
+    margin-top: 40px;
+    border: none;
+    background-color: rgb(216,125,74);
+    color: white;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 501;
+}
