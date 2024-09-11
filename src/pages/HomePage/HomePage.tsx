@@ -5,7 +5,7 @@ function HomePage() {
   return (
     <>
     <div className="mainBox">
-      <img src={heroImage} alt="error" height="609px"/>
+      <img src={heroImage} alt="error" height="609px" width="100%"/>
     </div>
     </>
   )
