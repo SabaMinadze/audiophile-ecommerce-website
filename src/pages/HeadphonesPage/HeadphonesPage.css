@@ -23,3 +23,11 @@
     margin-left: 210px;
     margin-top: 62px;
 }
+
+.box {
+    color: rgb(255, 255, 255);
+    font-family: 'Red Hat Display', sans-serif;
+    width: 350px;
+    margin-left: 220px;
+    transform: translateY(238px);
+}
