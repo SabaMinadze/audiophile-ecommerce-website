@@ -11,6 +11,9 @@ function HeadphonesPage() {
         <SubContent/>
     </div>
     <div className="content"><SubContent/></div>
+    <img src={headphoneImage} alt="error" width="550px" height="590px" className="img2"/>
+    
+
     </>
   )
 }
