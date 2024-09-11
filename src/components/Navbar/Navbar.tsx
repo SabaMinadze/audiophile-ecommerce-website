@@ -5,11 +5,11 @@ function Navbar() {
   return (
     <>
     <div className="navBar">
-        <ul>
-            <li><Link to="/">HOME</Link></li>
-            <li><Link to="headphones">HEADPHONES</Link></li>
-            <li><Link to="speakers">SPEAKERS</Link></li>
-            <li><Link to="eraphones">EARPHONES</Link></li>
+        <ul className="ul">
+            <li><Link className="li" to="/">HOME</Link></li>
+            <li><Link className="li" to="headphones">HEADPHONES</Link></li>
+            <li><Link className="li" to="speakers">SPEAKERS</Link></li>
+            <li><Link className="li" to="eraphones">EARPHONES</Link></li>
         </ul>
     </div>
     </>
