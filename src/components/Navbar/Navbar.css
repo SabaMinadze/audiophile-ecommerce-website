@@ -11,6 +11,7 @@
     list-style: none;
     gap: 50px;
     margin-left: 215px;
+    transform: translateY(20px);
 }
 
 .ul2{
@@ -42,4 +43,17 @@
 .li:hover{
     color: rgb(209,114,58);
     transition: 0.3s;
+}
+
+
+
+.l{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    color: white;
+    font-weight: 800;
+    font-size: 30px;
+
 }
