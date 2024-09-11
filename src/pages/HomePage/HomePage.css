@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700&display=swap');
+
+.txt{
+    color: red;
+    margin-top: -500px;
+    font-family: 'Red Hat Display', sans-serif;
+    width: 150px;
+}
