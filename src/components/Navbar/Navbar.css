@@ -18,14 +18,14 @@
     display: flex;
     list-style: none;
     gap: 50px;
-    margin-left: 210px;
+    margin-left: 200px;
 }
 
 .li{
     font-family: 'Red Hat Display', sans-serif;
     text-decoration: none;
     list-style: none;
-    font-size: 20px;
+    font-size: 16px;
     color: white;
     font-weight: 501;
 }
@@ -34,7 +34,7 @@
     font-family: 'Red Hat Display', sans-serif;
     text-decoration: none;
     list-style: none;
-    font-size: 20px;
+    font-size: 16px;
     color: rgb(209,114,58);
     font-weight: 501;
 }
@@ -48,12 +48,11 @@
 
 
 .l{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
     text-decoration: none;
     list-style: none;
-    font-size: 20px;
     color: white;
-    font-weight: 800;
-    font-size: 30px;
+    font-weight: 900;
+    font-size: 25px;
 
 }
