@@ -14,9 +14,15 @@ function HeaphoneXx9() {
         <Button title="ADD TO CART"/>
         <div className="priceBox">
           <div className="addtocartbox">
-            <button className="increase" onClick={() => {setPrice(price + 1)}}><h1>+</h1></button>
-            <h3 className="priceisshow">{price === 0 ? null : price}</h3>
-            <button className="decrease" onClick={() => {setPrice(price - 1)}}><h1>-</h1></button>
+          <button className="decrease" onClick={() => {
+               if (price > 1) {
+                setPrice(price - 1);
+              }
+            }}>
+              <h3>-</h3>
+            </button>     
+            <h3 className="priceisshow">{price <= 0 ? 1 : price}</h3>
+            <button className="increase" onClick={() => {setPrice(price + 1)}}><h3>+</h3></button>
           </div>
         </div>
     </div>
