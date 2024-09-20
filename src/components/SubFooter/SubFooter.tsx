@@ -4,6 +4,7 @@ import subFooter from "../../pages/assets/shared/desktop/image-best-gear.jpg"
 function SubFooter() {
   return (
     <>
+    <br /><br /><br /><br />
     <div className="subFooter">
         <img src={subFooter} alt="error" className="img7"/>
     </div>

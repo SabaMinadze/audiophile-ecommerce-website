@@ -5,14 +5,14 @@ import Button from "../../components/Button/Button"
 import { useState } from "react"
 function HeaphoneXx9() {
   const [price, setPrice] = useState(0)
+  const [isShow, setIsShow] = useState(true)
   return (
     <>
     <div>
       <div className="mainBox2"><center><h1 className="h1"></h1></center></div>
       <img src={headphoneImageMark2} alt="error" width="550px" height="590px" className="img1"/>
         <SubContent/>
-        <div className="contentBox">
-          <Button title="ADD TO CART"/>
+        <div className="contentBox1">
           <div className="priceBox">
             <div className="addtocartbox">
             <button className="decrease" onClick={() => {
@@ -26,6 +26,7 @@ function HeaphoneXx9() {
               <button className="increase" onClick={() => {setPrice(price + 1)}}><h3>+</h3></button>
             </div>
           </div>
+          <div className="left"><Button title="ADD TO CART"/></div>
         </div>
     </div>
     </>
