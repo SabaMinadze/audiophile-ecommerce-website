@@ -1,0 +1,26 @@
+.subFooter{
+    height: 540px;
+    width: 588px;
+    background-color: rgb(108, 108, 108);
+    margin-top: 240px;
+    margin-left: 700px;
+}
+
+.subFooter2{
+    height: 285.4px;
+    width: 540px;
+    background-color: rgb(108, 108, 108);
+    margin-top: -400px;
+    margin-left: 160px;
+}
+
+.txt11{
+    font-size: 50px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.txt112{
+    color: #d87d4a
+}
+
+.img7

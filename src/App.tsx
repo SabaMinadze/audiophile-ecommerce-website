@@ -6,6 +6,7 @@ import HeadphonesPage from "./pages/HeadphonesPage/HeadphonesPage"
 import SpeakersPage from "./pages/SpeakersPage/SpeakersPage"
 import EarphonesPage from "./pages/EarphonesPage/EarphonesPage"
 import HomePage from "./pages/HomePage/HomePage"
+import SubFooter from "./components/SubFooter/SubFooter"
 function App() {
   return (
     <>
@@ -16,6 +17,7 @@ function App() {
       <Route path="speakers" element={<SpeakersPage/>}/>
       <Route path="eraphones" element={<EarphonesPage/>}/>
     </Routes>
+    <SubFooter/>
     </>
   )
 }
