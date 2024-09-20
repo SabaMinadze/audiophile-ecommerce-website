@@ -1,0 +1,16 @@
+.mainBox2{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(25,25,25);
+}
+
+.priceBox{
+    margin-left: 900px;
+}
+
+.addtocartbox{
+    width: 120px;
+    height: 48px;
+    background-color: red;
+    margin-top: 20px;
+}

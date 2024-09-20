@@ -45,3 +45,7 @@
     height: 700px;
     background-image: url("./imagehero.jpg");
 }
+
+.btnBox{
+    margin-left: -900px;
+}

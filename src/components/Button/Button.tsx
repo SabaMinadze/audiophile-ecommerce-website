@@ -1,9 +1,15 @@
-import "./Button.css"
+import React from "react";
+import "./Button.css";
 
-function Button(props:any) {
-  return (
-    <><button className="btn9">{props.title}</button></>
-  )
+interface ButtonProps {
+  title: string;
+  onClick?: React.MouseEventHandler<HTMLButtonElement>;
 }
 
-export default Button
+const Button: React.FC<ButtonProps> = ({ title, onClick }) => {
+  return (
+    <button className="btn9" onClick={onClick}>{title}</button>
+  );
+};
+
+export default Button;

@@ -3,6 +3,8 @@ import headphoneImageMark2 from "../assets/category-headphones/desktop/image-xx9
 import headphoneImageMark1 from "../assets/category-headphones/desktop/image-xx99-mark-one.jpg"
 import headphoneImageXx59 from "../assets/category-headphones/desktop/image-xx59.jpg"
 import SubContent from "../../components/SubContent/SubContent"
+import Button from "../../components/Button/Button"
+import { Link } from "react-router-dom"
 
 function HeadphonesPage() {
   return (
@@ -11,13 +13,16 @@ function HeadphonesPage() {
     <div>
       <img src={headphoneImageMark2} alt="error" width="550px" height="590px" className="img1"/>
         <SubContent/>
-        <button className="btnnn">Click me</button>
+        <Link to="heaphoneXx9"><Button title="SEE PRODUCT"/></Link>
     </div>
-    <div className="content"><SubContent/></div>
+    <div className="content"><SubContent/>
+    <Button title="SEE PRODUCT"/>
+    </div>
     <img src={headphoneImageMark1} alt="error" width="550px" height="590px" className="img2"/>
     <div>
       <img src={headphoneImageXx59} alt="error" width="550px" height="590px" className="img1"/>
         <SubContent/>
+        <Button title="SEE PRODUCT"/>
     </div>
 
     </>
