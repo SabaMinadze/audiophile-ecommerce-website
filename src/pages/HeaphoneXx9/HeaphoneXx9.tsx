@@ -5,7 +5,6 @@ import Button from "../../components/Button/Button"
 import { useState } from "react"
 function HeaphoneXx9() {
   const [price, setPrice] = useState(0)
-  const [isShow, setIsShow] = useState(true)
   return (
     <>
     <div>
