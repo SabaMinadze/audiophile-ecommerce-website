@@ -11,18 +11,20 @@ function HeaphoneXx9() {
       <div className="mainBox2"><center><h1 className="h1"></h1></center></div>
       <img src={headphoneImageMark2} alt="error" width="550px" height="590px" className="img1"/>
         <SubContent/>
-        <Button title="ADD TO CART"/>
-        <div className="priceBox">
-          <div className="addtocartbox">
-          <button className="decrease" onClick={() => {
-               if (price > 1) {
-                setPrice(price - 1);
-              }
-            }}>
-              <h3>-</h3>
-            </button>     
-            <h3 className="priceisshow">{price <= 0 ? 1 : price}</h3>
-            <button className="increase" onClick={() => {setPrice(price + 1)}}><h3>+</h3></button>
+        <div className="contentBox">
+          <Button title="ADD TO CART"/>
+          <div className="priceBox">
+            <div className="addtocartbox">
+            <button className="decrease" onClick={() => {
+                if (price > 1) {
+                  setPrice(price - 1);
+                }
+              }}>
+                <h3>-</h3>
+              </button>     
+              <h3 className="priceisshow">{price <= 0 ? 1 : price}</h3>
+              <button className="increase" onClick={() => {setPrice(price + 1)}}><h3>+</h3></button>
+            </div>
           </div>
         </div>
     </div>
