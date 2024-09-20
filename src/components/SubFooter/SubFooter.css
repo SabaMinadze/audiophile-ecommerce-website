@@ -9,10 +9,10 @@
 
 .subFooter2{
     height: 285.4;
-    width: 540px;
+    width: 580px;
     background-color: rgb(86, 86, 86);
     margin-top: -420px;
-    margin-left: 210px;
+    margin-left: 180px;
 }
 
 .txt11{
@@ -32,8 +32,8 @@
 
 .txtt{
     font-size: 17px;
-    color: gray;
+    color: rgb(255, 255, 255);
     height: 149.4px;
-    width: 540px;
+    width: 530px;
     font-family: 'Red Hat Display', sans-serif;
 }
