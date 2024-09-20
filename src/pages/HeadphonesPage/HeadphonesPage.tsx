@@ -11,6 +11,7 @@ function HeadphonesPage() {
     <div>
       <img src={headphoneImageMark2} alt="error" width="550px" height="590px" className="img1"/>
         <SubContent/>
+        <button className="btnnn">Click me</button>
     </div>
     <div className="content"><SubContent/></div>
     <img src={headphoneImageMark1} alt="error" width="550px" height="590px" className="img2"/>

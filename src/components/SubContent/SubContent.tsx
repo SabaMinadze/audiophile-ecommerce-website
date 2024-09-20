@@ -1,4 +1,3 @@
-import Button from "../Button/Button"
 import "./SubContent.css"
 
 function SubContent() {
@@ -10,7 +9,6 @@ function SubContent() {
             <p className="txt22">The new XX99 Mark II headphones is the pinnacle
                of pristine audio. It redefines your premium headphone experience
                 by reproducing the balanced depth and precision of studio-quality sound.</p>
-            <Button title="SEE PRODUCT"/>
         </div>
     </>
   )
