@@ -1,17 +1,18 @@
 .subFooter{
-    height: 540px;
-    width: 588px;
+    height: 588px;
+    width: 544px;
     background-color: rgb(108, 108, 108);
     margin-top: 240px;
-    margin-left: 700px;
+    margin-left: 750px;
+    border-radius: 10px;
 }
 
 .subFooter2{
-    height: 285.4px;
+    height: 285.4;
     width: 540px;
-    background-color: rgb(108, 108, 108);
-    margin-top: -400px;
-    margin-left: 160px;
+    background-color: rgb(86, 86, 86);
+    margin-top: -420px;
+    margin-left: 210px;
 }
 
 .txt11{
@@ -23,4 +24,16 @@
     color: #d87d4a
 }
 
-.img7
+.img7{
+    height: 588px;
+    width: 544px;
+    border-radius: 10px;
+}
+
+.txtt{
+    font-size: 17px;
+    color: gray;
+    height: 149.4px;
+    width: 540px;
+    font-family: 'Red Hat Display', sans-serif;
+}
