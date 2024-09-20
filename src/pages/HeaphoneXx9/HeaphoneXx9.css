@@ -13,4 +13,39 @@
     height: 48px;
     background-color: red;
     margin-top: 20px;
+    display: flex;
+}
+
+.increase{
+    height: 48px;
+    width: 48px;
+    background-color: blue;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.increase:hover{
+    background-color: gray;
+    transition: 0.3s;
+}
+
+.decrease{
+    height: 48px;
+    width: 48px;
+    background-color: chartreuse;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+
+.decrease:hover{
+    background-color: gray;
+    transition: 0.3s;
+}
+
+.priceisshow{
+    width: 24px;
+    text-align: center;
+    margin-top: 10px;
 }

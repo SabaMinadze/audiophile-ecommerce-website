@@ -11,14 +11,13 @@ function HeaphoneXx9() {
       <div className="mainBox2"><center><h1 className="h1"></h1></center></div>
       <img src={headphoneImageMark2} alt="error" width="550px" height="590px" className="img1"/>
         <SubContent/>
-        <Button title="ADD TO CART" onClick={() => {
-          console.log(setPrice(price + 1));
-        }}/>
+        <Button title="ADD TO CART"/>
         <div className="priceBox">
           <div className="addtocartbox">
-            <div className="increase"></div>
+            <button className="increase" onClick={() => {setPrice(price + 1)}}><h1>+</h1></button>
+            <h3 className="priceisshow">{price === 0 ? null : price}</h3>
+            <button className="decrease" onClick={() => {setPrice(price - 1)}}><h1>-</h1></button>
           </div>
-          <h1>{price === 0 ? null : price}</h1>
         </div>
     </div>
     </>
