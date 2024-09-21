@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import "./Navbar.css"
+import cart from "../../pages/assets/shared/desktop/icon-cart.svg"
 
 function Navbar() {
   return (
@@ -12,7 +13,8 @@ function Navbar() {
             <li><Link className="lih" to="/">HOME</Link></li>
             <li><Link className="li" to="headphones">HEADPHONES</Link></li>
             <li><Link className="li" to="speakers">SPEAKERS</Link></li>
-            <li><Link className="li" to="eraphones">EARPHONES</Link></li>          
+            <li><Link className="li" to="eraphones">EARPHONES</Link></li> 
+            <li className="li1"><img src={cart} alt="error" /></li>         
             </ul>
         </ul>
     </div>

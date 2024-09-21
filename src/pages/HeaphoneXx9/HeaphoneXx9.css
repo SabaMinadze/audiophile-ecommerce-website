@@ -54,3 +54,11 @@
     margin-left: 140px;
     margin-top: -89px;
 }
+
+.priceshow{
+    color: red;
+    margin-left: 1310px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 20px;
+    transform: translateY(10px);
+}
